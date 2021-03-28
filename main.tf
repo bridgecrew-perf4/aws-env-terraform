@@ -10,8 +10,8 @@ terraform {
   }
 }
 
-resource "aws_s3_bucket" "bucket_data_engineering_2021" {
-  bucket = "felipedsf-bucket-2021"
+resource "aws_s3_bucket" "bucket_data_engineering" {
+  bucket = "bucket-data-engineering"
   acl    = "private"
   tags   = var.tags
 }
